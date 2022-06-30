@@ -1,0 +1,28 @@
+Aplikasi dibuat dengan software Android Studio dengan menggunakan bahasa JAVA, minimum SDK 21.
+Fitur :
+  - Menggunakan FAN (Fast Android Networking) sebagai Rest API.
+  - Menampilkan Daftar Hotel dan Detailnya.
+  - Menampilkan Daftar Kuliner dan Detailnya.
+  - Menampilkan Daftar Tempat Wisata dan Detailnya.
+  - Menampilkan Daftar Tempat Ibadah dengan Maps.
+  - Glide (Untuk management media).
+ 
+Aplikasi saya buat sesuai tutorial https://www.youtube.com/watch?v=04XK6d09RM0 atau https://rivaldi48.blogspot.com/2020/06/Tutorial-Membuat-Aplikasi-Wisata-dengan-Android-Studio.html.
+Setelah itu resource background, icon dan color accent nya saya ganti dengan resource dibawah:
+  Sumber Gambar : https://pixabay.com/
+  Sumber Icon   : https://www.flaticon.com/, https://toppng.com/
+
+Data aplikasi diambil dari API jadi tidak perlu database. lalu url API dimasukkan ke dalam project (Dimasukkan ke packages API)
+Sumber URL API Wisata :
+https://farizdotid.com/blog/dokumentasi-api-purwakarta/ (Berisi beberapa API, tapi yang digunakan hanya Hotel, Kuliner, Tempat Ibadah, Wisata)
+
+Lalu membuat API KEY untuk Google Maps Services di https://console.cloud.google.com/, agar aplikasi (tanpa ini fitur menampilkan maps di dalam aplikasi tidak berfungsi)
+
+
+Jadi intine, aku gawe aplikasi sesuai tutorial, moro tak ganti packages, background, icon, warna aplikasi e.
+moro tak lebokno url API sing isine data-data wisata.
+moro aku gawe api keys gek google cloud, cek e isok nampilno lokasi maps gawe tempat wisata e.
+
+sing tak ganti mek packages, background, icon, warna aplikasi e. object, class, nama file background, icon e gak tak ganti.
+
+NOTE  : soal google maps api key iku cek aplikasi sing kene gawe iso akses nang layanan google maps, jadi gak masalah key e teko endi, tapi iku key aku sing gawe.
